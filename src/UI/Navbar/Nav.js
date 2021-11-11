@@ -2,8 +2,9 @@ import React from 'react'
 import classes from "./Nav.module.css";
 
 function Nav() {
+
     return (
-        <div className={classes.navbar__container}>
+        <div className={classes.navbar__container} >
             <ul className={classes.navbar__list}>
                 <div className={classes.navbar__home}>
                     <li><a href="#">HOME</a></li>

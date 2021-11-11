@@ -1,0 +1,25 @@
+.about__container {
+  height: 100vh;
+  padding: 5rem;
+}
+
+.center__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  margin: auto;
+}
+
+.center__container img {
+  border-radius: 160.5px;
+  margin: auto;
+  height: 10rem;
+  width: 10rem;
+}
+
+.center__container p {
+  max-width: 50%;
+  margin-top: 5rem;
+}
