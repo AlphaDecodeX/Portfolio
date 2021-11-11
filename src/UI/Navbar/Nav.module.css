@@ -1,0 +1,22 @@
+.navbar__container {
+  height: 2rem;
+  width: 100%;
+}
+
+.navbar__list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar__others {
+  display: flex;
+  gap: 5rem;
+}
