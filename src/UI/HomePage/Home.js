@@ -9,11 +9,11 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Home() {
     return (
-        <div className={classes.home}>
+        <div className={classes.home} id="home">
             <div className={classes.home__info}>
                 <p>Welcome to my World</p>
                 <h1>I'm Lovepreet Singh</h1>
-                <h4>BlockChain and AI Developer</h4>
+                <h4>BLOCKCHAIN & AI DEVELOPER</h4>
                 <div className={classes.icons}>
                     <GitHubIcon />
                     <TwitterIcon />

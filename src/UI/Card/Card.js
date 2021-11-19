@@ -10,6 +10,7 @@ function Card(props) {
                     <h3>{props.project_title}</h3>
                     <p>{props.project_description}</p>
                     <p>11 Nov 2021</p>
+                    <div></div>
                 </div>
             </a>
         </div>

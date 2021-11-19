@@ -18,3 +18,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), url("./fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Target";
+  src: local("Target"),
+    url("./fonts/TarrgetCondensedItalic-OXLA.otf") format("truetype");
+}

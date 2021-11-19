@@ -1,7 +1,5 @@
 .about__container {
-  height: 100vh;
-  padding: 5rem;
-  scroll-snap-align: start;
+  padding-bottom: 5rem;
 }
 
 .center__container {
@@ -10,12 +8,11 @@
   justify-content: center;
   flex-direction: column;
   color: white;
-  margin: auto;
+  margin: 0.2rem auto;
 }
 
 .center__container img {
-  border-radius: 160.5px;
-  margin: auto;
+  border-radius: 50%;
   height: 10rem;
   width: 10rem;
 }
@@ -23,4 +20,9 @@
 .center__container p {
   max-width: 50%;
   margin-top: 5rem;
+  font-family: "Poppins";
+}
+
+.center__container h1 {
+  font-family: "Target";
 }

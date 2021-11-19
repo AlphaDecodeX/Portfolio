@@ -1,9 +1,10 @@
 .card__container img {
-  border: 2px solid #1db954;
+  border: 1px solid #3c4f06;
   box-sizing: border-box;
-  border-radius: 18px;
-  width: 12rem;
-  height: 10rem;
+  border-radius: 7px;
+  width: 10rem;
+  height: 8rem;
+  margin: 1rem;
 }
 
 .card__container {
@@ -14,5 +15,23 @@
   gap: 2rem;
 }
 
-.card__info {
+.card__info p {
+  font-family: "Poppins";
+  font-size: 0.6rem;
+  width: 100%;
+}
+
+.card__info h3 {
+  font-family: "Target";
+  font-size: 0.9rem;
+}
+.card__info span {
+  display: flex;
+  gap: 1rem;
+}
+
+.card__info div {
+  width: 100%;
+  margin: 0.5rem auto;
+  border: 0.5px solid rgb(9, 82, 9);
 }
