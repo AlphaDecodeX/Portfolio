@@ -20,12 +20,12 @@ moongoose.connect(connection_url, {
 
 // API EndPoints --> "/getProjects", "/addProject", "removeProject";
 
-app.get("/getProject", (req, res) => {
+app.get("/getProjects", (req, res) => {
     projectsDb.find((err, data) => {
         if (err) {
             res.status(500).send(err);
         } else {
-            res.status(200).send("Getting Projects");
+            res.status(200).send(data);
         }
     })
 })
@@ -56,7 +56,6 @@ app.post("/addProject", (req, res) => {
 
 app.post("/removeProject", (req, res) => {
     const projectName = req.body.name; // name
-    console.log(projectName);
 
     projectsDb.findOneAndDelete({ name: projectName }, (err, data) => {
         if (err) {
@@ -65,7 +64,6 @@ app.post("/removeProject", (req, res) => {
             res.status(201).send(data);
         }
     })
-
 })
 
 // Listener

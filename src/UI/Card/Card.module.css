@@ -2,7 +2,7 @@
   border: 1px solid #3c4f06;
   box-sizing: border-box;
   border-radius: 7px;
-  width: 10rem;
+  width: 8rem;
   height: 8rem;
   margin: 1rem;
 }
@@ -14,7 +14,9 @@
   width: 50%;
   gap: 2rem;
 }
-
+a {
+  text-decoration: none;
+}
 .card__info p {
   font-family: "Poppins";
   font-size: 0.6rem;

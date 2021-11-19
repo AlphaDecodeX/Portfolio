@@ -4,6 +4,8 @@ import Home from './UI/HomePage/Home';
 import Projects from './UI/Projects/Projects';
 import Particles from "react-tsparticles";
 import particles from "./UI/Particles/particle-config"
+import { Route, Switch } from "react-router-dom";
+import Admin from "./UI/Admin/Admin"
 
 function App() {
 
@@ -14,11 +16,21 @@ function App() {
           options={particles}
         />
       </div>
-      <Home />
-      <Projects />
-      <About />
+      <Switch>
+        <Route path="/admin" exact>
+          <Admin />
+        </Route>
 
-    </div>
+        <Route path="*">
+
+          <Home />
+          <Projects />
+          <About />
+        </Route>
+      </Switch>
+
+
+    </div >
   );
 }
 
