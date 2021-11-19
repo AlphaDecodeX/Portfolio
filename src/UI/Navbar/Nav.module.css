@@ -1,8 +1,8 @@
 .navbar__container {
   height: 2rem;
-  position: fixed;
   width: 100%;
   top: 0;
+  scroll-snap-align: start;
 }
 
 .navbar__list {

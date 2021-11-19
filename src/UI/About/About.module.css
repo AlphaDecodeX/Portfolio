@@ -1,6 +1,7 @@
 .about__container {
   height: 100vh;
   padding: 5rem;
+  scroll-snap-align: start;
 }
 
 .center__container {
