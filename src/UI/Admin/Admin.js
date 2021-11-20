@@ -1,7 +1,6 @@
 import classes from "./Admin.module.css"
 import React from 'react'
 import { useState, useRef } from "react";
-import Button from "../Button/Button"
 import axios from "./axios"
 
 function Admin() {

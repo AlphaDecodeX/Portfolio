@@ -1,5 +1,5 @@
 .about__container {
-  padding-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 .center__container {
@@ -8,21 +8,31 @@
   justify-content: center;
   flex-direction: column;
   color: white;
-  margin: 0.2rem auto;
 }
 
 .center__container img {
   border-radius: 50%;
+  box-shadow: 0px 0px 15px 2px rgba(47, 214, 89, 0.25);
   height: 10rem;
   width: 10rem;
+  display: block;
 }
 
 .center__container p {
   max-width: 50%;
-  margin-top: 5rem;
+  margin-top: 2rem;
   font-family: "Poppins";
+  font-size: 0.8rem;
 }
 
 .center__container h1 {
   font-family: "Target";
 }
+/* 
+@media (max-width: 1000px) {
+  p,
+  h1 {
+    font-size: 2rem;
+    font-family: "Target";
+  }
+} */
