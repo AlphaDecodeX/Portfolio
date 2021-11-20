@@ -53,3 +53,24 @@ p {
   margin: 0.2rem auto;
   padding: 0.2rem;
 }
+
+@media (max-width: 1000px) {
+  .form input {
+    font-size: 0.5rem;
+    width: 100%;
+  }
+  .firstButton {
+    width: 50%;
+    margin: 1rem;
+    font-size: 0.6rem;
+    padding: 0.5rem 0.5rem;
+  }
+  .secondButton {
+    width: 50%;
+    font-size: 0.6rem;
+    padding: 0.5rem 0.5rem;
+  }
+  .container {
+    width: 80%;
+  }
+}

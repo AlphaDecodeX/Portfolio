@@ -4,8 +4,8 @@
 }
 
 .projects__scroll {
-  max-height: 90vh;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   background: linear-gradient(
     179.3deg,
     #123306 0.61%,
@@ -31,4 +31,10 @@
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: rgb(38, 119, 22);
+}
+
+@media (max-width: 1000px) {
+  .projects__container {
+    margin: 10rem auto 5rem auto;
+  }
 }

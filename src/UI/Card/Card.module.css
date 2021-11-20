@@ -37,3 +37,11 @@ a {
   margin: 0.5rem auto;
   border: 0.5px solid rgb(9, 82, 9);
 }
+
+@media (max-width: 1000px) {
+  .card__container img {
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+  }
+}

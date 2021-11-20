@@ -58,3 +58,24 @@
 h4 {
   font-family: "Target";
 }
+
+@media (max-width: 930px) {
+  .home__image img {
+    width: 0%;
+    height: 0%;
+    border-radius: 50%;
+  }
+  .home {
+    margin: 5rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icons {
+    align-items: center;
+    justify-content: center;
+  }
+}
